@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Introducción a JavaScript</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="titulo">
+            <h1>Calculadora Inteligente</h1>
+        </div>
+        <div class="inputs">
+            <input type="number" id="num1" placeholder="Número 1">
+            <input type="number" id="num2" placeholder="Número 2">
+        </div>
+        <div class="button" >
+            <button onclick="suma()">Sumar +</button>
+            <button onclick="resta()">Restar -</button>
+            <button onclick="multi()">Multiplicar *</button>
+            <br>
+            <button onclick="div()">Dividir /</button>
+            <button onclick="potencia()">Potencia x^y</button>
+            <button onclick="raizCuadra()">Raíz Cuadrada √</button>
+        </div>
+        
+        <div class="resultado">
+            <h2>Resultado: <span id="resultado">0</span></h2>
+        </div>
+    </div>
+    <script src="javaS.js"></script>
+</body>
+</html>

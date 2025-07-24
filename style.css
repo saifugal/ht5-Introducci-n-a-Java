@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/originals/cc/38/12/cc3812592f7a4b60a8b2617e5fe9c29d.gif') ;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #4682B4;
+}
+h2 {
+    color: #B0C4DE;
+    text-align: center;
+}
+.button {
+    background:#4682B4;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    width: 400px;
+    margin: 6px auto;
+    padding: 14px;
+    display: flex;
+ 
+    transition: transform 0.2s, background 0.2s;
+}
+.button:hover {
+    transform: scale(1.05);
+    background: #ffe4e1;
+    align-items: center;
+    box-shadow: 0 0 12px 2px #003366, 0 4px 16px rgba(0,0,0,0.1);
+    border-color: #003366;
+}
+.inputs {
+    background: #ADD8E6;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 10px auto;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs:hover{
+    transform: scale(1.05);
+    background: #ffe4e1;
+    align-items: center;
+    box-shadow: 0 0 12px 2px #003366, 0 4px 16px rgba(0,0,0,0.1);
+    border-color: #003366;
+}
+
+.resultado{
+    background:#778899;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    width: 500px;
+    margin: 10px auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resultado:hover {
+    transform: scale(1.05);
+    background: #ffe4e1;
+    align-items: center;
+    box-shadow: 0 0 12px 2px #003366, 0 4px 16px rgba(0,0,0,0.1);
+    border-color: #003366;
+}
+.titulo {
+    background: #E0FFFF;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 20px auto;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo:hover {
+    transform: scale(1.05);
+    background: #ffe4e1;
+    align-items: center;
+     box-shadow: 0 0 12px 2px #003366, 0 4px 16px rgba(0,0,0,0.1);
+    border-color: #003366;
+}
+.container {
+    background: MEDIUMSLATEBLUE;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px lightblue;
+    width: 800px;
+    margin: 20px auto;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
